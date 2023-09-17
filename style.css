@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#katara_body {
+    background: url(img/conhecimento_bg.jpg);
+    font-family: sans-serif;
+}
+
+#evy_body {
+    background: url(img/energia_bg.jpg);
+    font-family: serif;
+}
+
+#header, #nav {
+    color: white;
+    background-color: black;
+    height: 75px;
+    text-align: center;
+}
+
+h1 {
+    padding: min(50px, 3vh);
+    font-size: max(20px, 3vw);
+}
+
+.menu {
+    padding: 45px;
+    font-size: max(15px, 1.1vw);
+}
+
+#katara_menu {
+    color: rgb(255, 183, 0);
+}
+
+#katara_menu:hover {
+    border: solid 1px rgb(255, 183, 0);
+}
+
+#evy_menu {
+    color: rgb(170, 0, 255);
+}
+
+#evy_menu:hover {
+    border: solid 1px rgb(170, 0, 255);
+}
+
+.conteiner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: white;
+}
+
+#caixa1, #caixa2 {
+    width: 35%;
+    height: auto;
+    background: url(img/pergaminho_bg.jpg);
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+#atributo_evy {
+    position: relative;
+    top: 27%;
+}
+
+#nome, #nex {
+    display: inline-block;
+    font-size: max(7px, 2vw);
+}
+
+#nome {
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+#nex {
+    position: absolute;
+    text-align: center;
+    right: 0; 
+}
+
+#trilha {
+    position: relative;
+    text-align: center;
+    top: 15%;
+    font-size: max(7px, 2vw);
+}
+
+#caixa2 #agilidade {
+    position: absolute;
+    /*top: 34%;
+    right: 16.1%;*/
+}
+
+#caixa2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#agilidade, #força, #intelecto, #presença, #vigor {
+    position: relative;
+    font-size: max(10px, 4vw);
+}
+
+/*Atibutos Katara*/
+
+#agilidade {
+    top: 32%;
+    right: 47%;
+}
+
+#força {
+    top: 38%;
+    right: -15%;
+}
+
+#intelecto {
+    top: 28%;
+    right: -78%;
+}
+
+#presença {
+    top: 46%;
+    right: -24%;
+}
+
+#vigor {
+    top: 37%;
+    right: -68%;
+}
+
+/* Atributos Evy*/
+
+.evy #agilidade {
+    top: 32%;
+    right: 47%;
+}
+
+.evy #força {
+    top: 36%;
+    right: -15%;
+}
+
+.evy #intelecto {
+    top: 29%;
+    right: -78%;
+}
+
+.evy #presença {
+    top: 42%;
+    right: -24%;
+}
+
+.evy #vigor {
+    top: 35%;
+    right: -69%;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+#footer p {
+    font-size: max(16px, 1.5vw);
+}
